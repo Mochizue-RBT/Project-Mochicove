@@ -23,11 +23,15 @@ app.listen(port, (req, res)=>{
   return console.log(`🚀 Server is now listening to port http://localhost:${port}`);
 });
 
-app.get('/', async (req, res)=>{
+app.get('/', (req, res)=>{
+  return res.render('index');
+});
+
+app.get('/view-users', async (req, res)=>{
   const errorMessage = "Failed to load users";
   try {
     const users = await db.query('SELECT * FROM users ORDER BY id DESC');
-    return res.render('index', {
+    return res.render('view-users', {
       users: users.rows
     });
   } catch (error) {

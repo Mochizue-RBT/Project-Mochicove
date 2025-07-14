@@ -79,10 +79,43 @@ html::-webkit-scrollbar-thumb{
   padding: 0 10rem;
 }
 
-/* <!-- Container styles --> */
+.pad-1r{
+  padding: 1rem;
+}
+
+.pad-2r{
+  padding: 2rem;
+}
+
+.pad-3r{
+  padding: 3rem;
+}
+
+.border-r10px{
+  border-radius: 10px;
+}
+
+.border-r20px{
+  border-radius: 20px;
+}
+
+.border-r15px{
+  border-radius: 15px;
+}
+
+.border-r5px{
+  border-radius: 5px;
+}
+
+/* <!-- Body styles --> */
 
 .main-content-container{
   height: 100vh;
   width: 100%;
+}
+
+.page-container{
+  background-color: var(--surface);
+  border: 1px solid var(--border);
 }
 
