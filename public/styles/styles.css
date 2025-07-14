@@ -16,8 +16,8 @@
 }
 
 :root{
-  --primary-color: #FFA68D;
-  --primary-dark: #FD3A84;
+  --primary-color: #f8a4bd;
+  --primary-dark: #da6488;
   --secondary-color: #f1f5f9;
   --accent-color: #10b981;
   --danger-color: #ef4444;
@@ -79,6 +79,14 @@ html::-webkit-scrollbar-thumb{
   padding: 0 10rem;
 }
 
+.gap-1r{
+  gap: 1rem;
+}
+
+.pad-p5r{
+  padding: .5rem;
+}
+
 .pad-1r{
   padding: 1rem;
 }
@@ -107,6 +115,10 @@ html::-webkit-scrollbar-thumb{
   border-radius: 5px;
 }
 
+.independent{
+  margin-bottom: 10px;
+}
+
 /* <!-- Body styles --> */
 
 .main-content-container{
@@ -117,5 +129,48 @@ html::-webkit-scrollbar-thumb{
 .page-container{
   background-color: var(--surface);
   border: 1px solid var(--border);
+}
+
+.box{
+  width: 300px;
+  height: auto;
+}
+
+.page-logo{
+  width: 100px;
+  margin-bottom: 25px;
+}
+
+.page-title{
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.page-description{
+  width: 100%;
+  text-align: center;
+}
+
+.page-container-dark{
+  background-color: var(--background);
+  border: 1px solid var(--border);
+}
+
+.header-text{
+  width: 100%;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.button{
+  width: 100%;
+  background: linear-gradient(to right, var(--primary-dark), var(--primary-color));
+  color: var(--surface);
+  font-weight: 500;
 }
 

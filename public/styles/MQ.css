@@ -1,0 +1,36 @@
+/* === Large Desktops (Default Styles) === */
+/* Applies to 1440px and above (e.g., 27" monitors, iMac) */
+
+/* === Medium Desktops & Laptops (1439px - 1024px) === */
+@media (max-width: 1439px) {
+  
+}
+
+/* === Small Laptops (1023px - 768px) === */
+/* 13" MacBook Air, Surface Laptop Go */
+@media (max-width: 1023px) {
+  
+}
+
+/* === Tablets (767px - 600px) === */
+/* iPad, Galaxy Tab in landscape */
+@media (max-width: 767px) {
+  .res-column{
+    flex-direction: column;
+  }
+}
+
+/* === Large Phones (599px - 480px) === */
+/* iPhone 15 Pro Max, Galaxy S23 Ultra */
+@media (max-width: 599px) {
+  
+}
+
+/* === Small Phones (479px and below) === */
+/* iPhone SE, Pixel 4a */
+@media (max-width: 479px) {
+  .res-width{
+    width: 100%;
+  }
+}
+
