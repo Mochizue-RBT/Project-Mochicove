@@ -33,6 +33,6 @@ app.get('/', async (req, res)=>{
   } catch (error) {
     return res.status(500).render('error', {
       error: errorMessage
-    })
+    });
   }
 });
