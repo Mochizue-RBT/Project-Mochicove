@@ -32,5 +32,11 @@
   .res-width{
     width: 100%;
   }
+  .res-pad{
+    padding: unset;
+  }
+  .res-pad-sides{
+    padding: 1rem 0;
+  }
 }
 
