@@ -1,0 +1,88 @@
+/* <!-- Styling Default-1 --> */
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;                                                           
+  font-family: "Quicksand", monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  transition: all 0.20s ease-in-out;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --primary-color: #FFA68D;
+  --primary-dark: #FD3A84;
+  --secondary-color: #f1f5f9;
+  --accent-color: #10b981;
+  --danger-color: #ef4444;
+  --warning-color: #f59e0b;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-light: #94a3b8;
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --base-font-size: clamp(1rem, 0.5rem + 0.5vw, 1.25rem);
+  --text-xs: clamp(0.75rem, 0.7rem + 0.2vw, 0.85rem);
+  --text-sm: clamp(0.85rem, 0.8rem + 0.3vw, 1rem);
+  --text-md: clamp(1rem, 0.9rem + 0.4vw, 1.15rem);
+  --text-lg: clamp(1.15rem, 1rem + 0.6vw, 1.5rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+  --text-2xl: clamp(1.75rem, 1.4rem + 1.5vw, 2.5rem);
+  --text-3xl: clamp(2rem, 1.6rem + 2vw, 3rem);
+  --text-4xl: clamp(2.5rem, 2rem + 2.5vw, 4rem);
+  --leading-normal: 1.5;
+  --leading-tight: 1.25;
+  --leading-loose: 1.75;
+}
+
+/* <!-- HTML Scrollbar --> */
+
+html{
+  background-color: var(--background);
+}
+
+html::-webkit-scrollbar{
+  width: .5rem;
+}
+
+html::-webkit-scrollbar-track{
+  background-color: var(--background);
+}
+
+html::-webkit-scrollbar-thumb{
+  background-color: var(--primary-dark);
+}
+
+/* <!-- Utitlity class --> */
+
+.flexer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexer-column{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-responsive-container{
+  padding: 0 10rem;
+}
+
+/* <!-- Container styles --> */
+
+.main-content-container{
+  height: 100vh;
+  width: 100%;
+}
+
