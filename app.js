@@ -40,3 +40,7 @@ app.get('/view-users', async (req, res)=>{
     });
   }
 });
+
+app.get('/create-user', (req, res)=>{
+  return res.render('create-user');
+});
