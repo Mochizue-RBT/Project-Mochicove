@@ -187,24 +187,3 @@ html::-webkit-scrollbar-thumb{
   color: var(--surface);
   font-weight: 500;
 }
-
-.logo-box-container{
-  justify-content: start;
-}
-
-.header-logo{
-  width: 50px;
-}
-
-.logo-text{
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.right-box{
-  justify-content: end;
-}
-
-.right-box-desc{
-  min-width: 11.3rem;
-}
