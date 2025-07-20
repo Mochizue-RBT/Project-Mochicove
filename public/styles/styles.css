@@ -195,11 +195,13 @@ html::-webkit-scrollbar-thumb{
 
 .logo-box{
   justify-content: space-between;
+  width: 100%;
 }
 
 .sidebar{
   background-color: var(--surface);
   border: 1px solid var(--border);
+  justify-content: start;
 }
 
 .sidebar-logo{
@@ -221,9 +223,51 @@ html::-webkit-scrollbar-thumb{
 }
 
 .remove{
-  display: none;
+  display: none !important;
 }
 
 .grid-hide{
   grid-template-columns: 50px 1fr;
 }
+
+.sidebar-open{
+  display: none !important;
+  cursor: pointer;
+}
+
+.open{
+  display: flex !important;
+}
+
+.sidebar-actions{
+  width: 100%;
+}
+
+.sidebar-links{
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.link-text{
+  font-size: .9rem;
+  width: 100%;
+  justify-content: start;
+  font-weight: 500;
+}
+
+.link{
+  width: 100%;
+  justify-content: start;
+  border-radius: 10px;
+}
+
+.active-link{
+  background: linear-gradient(to right, var(--primary-dark), var(--primary-color));
+  .link-text{
+    color: var(--surface);
+    i{
+      color: var(--surface);
+    }
+  }
+}
+

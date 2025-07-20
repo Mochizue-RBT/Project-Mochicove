@@ -1,14 +1,22 @@
 <title>Mochicove - view users</title>
 <%-include('partials/main.ejs')%>
 <div class="main-content-container body-content">
-  <div class="sidebar pad-2r">
-    <div class="logo-box flexer">
-      <a href="/" class="sidebar-logo flexer gap-p5r"><i class="fa-brands fa-slack"></i> mochicove</a>
+  <div class="sidebar pad-2r flexer-column">
+    <div class="sidebar-actions flexer">
+      <div class="logo-box flexer">
+        <a href="/" class="sidebar-logo flexer gap-p5r"><i class="fa-brands fa-slack"></i> mochicove</a>
+      </div>
       <i class="bi bi-box-arrow-left sidebar-exit" onclick=sideBarExit()></i>
+      <i class="fa-solid fa-bars sidebar-open" onclick=sideBarOpen()></i>
+    </div>
+    <div class="sidebar-links flexer-column gap-p5r">
+      <div class="link flexer active-link">
+        <a href="/" class="flexer link-text gap-p5r pad-1r"><i class="bi bi-bar-chart-fill"></i>Dashboard</a>
+      </div>
     </div>
   </div>
   <div class="main-content flexer-column">
-
+    
   </div>
 </div>
 <script src="/JS/index.js"></script>
