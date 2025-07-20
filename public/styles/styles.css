@@ -187,3 +187,13 @@ html::-webkit-scrollbar-thumb{
   color: var(--surface);
   font-weight: 500;
 }
+
+.body-content{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.sidebar{
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+}
