@@ -219,3 +219,11 @@ html::-webkit-scrollbar-thumb{
   font-size: 1.1rem;
   cursor: pointer;
 }
+
+.remove{
+  display: none;
+}
+
+.grid-hide{
+  grid-template-columns: 50px 1fr;
+}
