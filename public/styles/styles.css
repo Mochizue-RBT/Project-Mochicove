@@ -83,6 +83,10 @@ html::-webkit-scrollbar-thumb{
   gap: 1rem;
 }
 
+.gap-p5r{
+  gap: .5rem;
+}
+
 .pad-p5r{
   padding: .5rem;
 }
@@ -197,3 +201,10 @@ html::-webkit-scrollbar-thumb{
   font-weight: 700;
 }
 
+.right-box{
+  justify-content: end;
+}
+
+.right-box-desc{
+  min-width: 11.3rem;
+}
